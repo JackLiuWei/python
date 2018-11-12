@@ -11,8 +11,16 @@ print ('H' in var)         //in是否存在字符串,这里输出：True
 print ('H' not in var)     //in是否不存在字符串,这里输出：False
 print (r'\n')              //r禁止转义的，这里打印：\n
 
-#字符串格式化运算符号
+#字符串格式化运算符号%
 print("My name is %s and weight is %d kg!"%('Zara',22))
-输出：
+#输出：
 My name is Zara and weight is 22 kg!
+
+#字符串三目运算符
+para_str = """this is long story of myself,
+where I am,but I did not kown.\nSometime I will thinking about
+what where I am from,\tbut no result
+"""
+print (para_str)
 ```
+
