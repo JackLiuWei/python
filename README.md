@@ -44,6 +44,19 @@ for var in x (x可以是数组或者lamada表达式)
   表达式1
 ```
 
+#### for循环可以遍历字符串
+```javascript
+for letter in 'PYTHON':
+  print (letter)
+```
+
+#### for循环可以通过指针遍历数组(通过len函数获取长度，range函数迭代产生单个数值)
+```javascript
+fruit = ["apple","banana","juice"]
+for index in range(len(fruit)):
+  print ("current fruit is ",fruit[index]) 
+```
+
 ### 5 数组
 ```javascript
 list(range(5)) //通过内置函数迭代生成数字
