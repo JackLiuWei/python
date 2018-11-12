@@ -22,6 +22,12 @@ where I am,but I did not kown.\nSometime I will thinking about
 what where I am from,\tbut no result
 """
 print (para_str)
+输出：
+My name is Zara and weight is 22 kg!
+this is long story of myself,
+where I am,but I did not kown.
+Sometime I will thinking about
+what where I am from,	but no result
 
 #反斜杠在字符串中没有特殊的含义\
 print ('C:\\program file')
@@ -29,3 +35,5 @@ print ('C:\\program file')
 print (r'C:\\program file')
 ```
 
+### 2 字符串的内置函数
+...
