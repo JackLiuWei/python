@@ -78,13 +78,13 @@ for i in range(1,9):
 ```javascript
 #迭代器
 list = [1,2,3,4]
-it = iter(list)
+it = iter(list)               //获取迭代器1
 #print (next(it))
 for var in it:                //for循环的方式
     print (var,end = " ")
 print ()
 list2 = [1,2,3,4]
-it2 = iter(list2)
+it2 = iter(list2)             //获取迭代器2
 while True:                   //while循环的方式
     try:
         print (next(it2),end = " ")
