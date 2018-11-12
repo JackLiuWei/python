@@ -21,6 +21,14 @@ python的单目运算只能通过 x = x + 1的方式完成，x++其他方式不�
 
 #### 无限循环只需要if true条件一直为真
 
+#### while语句可以配合else语句一起使用
+```javascript
+while 表达式A
+  ...
+else:
+  ...
+```
+
 
      
  
