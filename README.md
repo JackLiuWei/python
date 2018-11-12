@@ -56,6 +56,13 @@ fruit = ["apple","banana","juice"]
 for index in range(len(fruit)):               //记得添加for后面的 ：
   print ("current fruit is ",fruit[index])    //print打印内容要加括号，在python3.7之后
 ```
+#### for循环可以与else一起使用（像while一样，for在循环【正常】终止时执行，而while遇到false才执行）
+```javascript
+for xxx
+  语句块1             //如果不想执行到语句块2，可以使用break
+else
+  语句块2（正常执行完成执行）
+```
 
 ### 5 数组
 ```javascript
@@ -68,4 +75,4 @@ for index in range(len(fruit)):               //记得添加for后面的 ：
   print ("current fruit is ",fruit[index])    //print打印内容要加括号，在python3.7之后
 ```
      
- 
+
