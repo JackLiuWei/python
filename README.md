@@ -64,6 +64,17 @@ else
   语句块2（正常执行完成执行）
 ```
 
+### 5 内层嵌套
+#内层嵌套打印99乘法表
+```javascript
+for i in range(1,9):
+    for j in range(1,9):
+        k = i*j
+        print ("%s * %s = "%(j,i),end = '')   //注意打印多个变量的方式
+        print (k,end = ' ')                   //设置结束时的符号，这里为空格，默认应该时空行的方式
+    print ()
+```
+
 ### 5 数组
 ```javascript
 list(range(5)) //通过内置函数迭代生成数字
