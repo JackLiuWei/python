@@ -74,6 +74,23 @@ for i in range(1,9):
         print (k,end = ' ')                   //设置结束时的符号，这里为空格，默认应该时空行的方式
     print ()
 ```
+### 6 while/for/内层嵌套循环的迭代器
+```javascript
+#迭代器
+list = [1,2,3,4]
+it = iter(list)
+#print (next(it))
+for var in it:                //for循环的方式
+    print (var,end = " ")
+print ()
+list2 = [1,2,3,4]
+it2 = iter(list2)
+while True:                   //while循环的方式
+    try:
+        print (next(it2),end = " ")
+    except StopIteration:
+        sys.exit()
+```
 
 ### 5 数组
 ```javascript
