@@ -18,6 +18,11 @@ print ("xxxxxxxxxx")
 
 ### 3 循环语句
 python的单目运算只能通过 x = x + 1的方式完成，x++其他方式不可以
+```javascript
+while 条件
+  语句块1
+  x = x + 1    //变量x自增1
+```
 
 #### 无限循环只需要if true条件一直为真
 ```javascript
