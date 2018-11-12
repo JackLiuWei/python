@@ -30,7 +30,7 @@ while true
   执行语句块1
 ```
 
-#### while语句可以配合else语句一起使用
+#### while语句可以配合else语句一起使用(当条件为False时的情况下执行)
 ```javascript
 while 表达式A
   ...
