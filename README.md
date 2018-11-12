@@ -16,7 +16,7 @@ print ("xxxxxxxxxx")
 
 注意：在python3.7版本中，print函数必须加上（）括号括起来
 
-### 3 循环语句
+### 3 while循环语句
 python的单目运算只能通过 x = x + 1的方式完成，x++其他方式不可以
 ```javascript
 while 条件
@@ -36,6 +36,12 @@ while 表达式A
   ...
 else:
   ...
+```
+ 
+### 4 for循环语句
+```javascript
+for var in x (x可以是数组或者lamada表达式)
+  表达式1
 ```
 
 
