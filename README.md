@@ -53,8 +53,8 @@ for letter in 'PYTHON':
 #### for循环可以通过指针遍历数组(通过len函数获取长度，range函数迭代产生单个数值)
 ```javascript
 fruit = ["apple","banana","juice"]
-for index in range(len(fruit)):
-  print ("current fruit is ",fruit[index]) 
+for index in range(len(fruit)):               //记得添加for后面的 ：
+  print ("current fruit is ",fruit[index])    //print打印内容要加括号，在python3.7之后
 ```
 
 ### 5 数组
