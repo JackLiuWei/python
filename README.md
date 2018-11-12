@@ -20,6 +20,10 @@ print ("xxxxxxxxxx")
 python的单目运算只能通过 x = x + 1的方式完成，x++其他方式不可以
 
 #### 无限循环只需要if true条件一直为真
+```javascript
+while true
+  执行语句块1
+```
 
 #### while语句可以配合else语句一起使用
 ```javascript
