@@ -44,6 +44,10 @@ for var in x (x可以是数组或者lamada表达式)
   表达式1
 ```
 
+### 5 数组
+```javascript
+list(range(5)) //通过内置函数迭代生成数字
+```
 
      
  
