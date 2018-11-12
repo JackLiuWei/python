@@ -50,7 +50,7 @@ for letter in 'PYTHON':
   print (letter)
 ```
 
-#### for循环可以通过指针遍历数组(通过len函数获取长度，range函数迭代产生单个数值)
+#### for循环可以通过索引遍历数组(通过len函数获取长度，range函数迭代产生单个数值)
 ```javascript
 fruit = ["apple","banana","juice"]
 for index in range(len(fruit)):               //记得添加for后面的 ：
@@ -61,6 +61,11 @@ for index in range(len(fruit)):               //记得添加for后面的 ：
 ```javascript
 list(range(5)) //通过内置函数迭代生成数字
 ```
-
+#### 数组的索引遍历
+```javascript
+fruit = ["apple","banana","juice"]
+for index in range(len(fruit)):               //记得添加for后面的 ：
+  print ("current fruit is ",fruit[index])    //print打印内容要加括号，在python3.7之后
+```
      
  
